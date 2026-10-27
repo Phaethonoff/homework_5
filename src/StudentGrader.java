@@ -26,9 +26,8 @@ public class StudentGrader {
         System.out.println("STUDENT GRADER");
 
         while (true) {
-            System.out.print("\nEnter student score (0-100) or -1 to exit: ");
-            
-            // Check if user input is an integer
+            System.out.print("Enter student score (0-100) or -1 to exit: ");
+
             if (!scanner.hasNextInt()) {
                 System.out.println("Error: Please enter a valid integer number.");
                 scanner.next();
